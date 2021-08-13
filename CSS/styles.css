@@ -1,6 +1,7 @@
 :root {
   --maintext-color: #212121;
-  --activebuttoncolor: #ffffff;
+  --activebutton-textcolor: #ffffff;
+  --active-color: #2196f3;
 }
 
 body {
@@ -18,7 +19,7 @@ body {
   color: black;
 }
 .logoletter {
-  color: #2196f3;
+  color: var(--active-color);
 }
 
 .header-page {
@@ -45,7 +46,7 @@ body {
 }
 .link:hover,
 .link:focus {
-  color: #2196f3;
+  color: var(--active-color);
 }
 
 .hero {
@@ -68,7 +69,7 @@ body {
   letter-spacing: 0.06em;
 
   color: #ffffff;
-  background: #2196f3;
+  background: var(--active-color);
 }
 .btn {
   cursor: pointer;
@@ -156,7 +157,7 @@ body {
 
 .filter-button:hover,
 .filter-button:focus {
-  color: var(--activebuttoncolor);
+  color: var(--activebutton-textcolor);
   background-color: #2196f3;
 }
 
