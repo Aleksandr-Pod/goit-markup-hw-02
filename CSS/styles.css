@@ -1,0 +1,66 @@
+:root {
+    --maincolor}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+
+  color: black;
+}
+.logoletter {
+  color: #2196f3;
+}
+
+.header-page {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.header-nav {
+}
+.list {
+    list-style: none;
+}
+.link {
+  color: #212121;
+  text-decoration: none;
+}
+.footer {
+    background-color: #757575;
+}
+.addressletter {
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+
+color: #FFFFFF;
+}
+.phonefooter {
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+
+color: rgba(255, 255, 255, 0.6);
+}
+
+.link:hover,
+.link:focus {
+  color: #2196f3;
+}
+
+.header-addr {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+
+color: #757575;
+}
+/* ------------INDEX--------------- */
