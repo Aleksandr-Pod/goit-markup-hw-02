@@ -131,18 +131,21 @@ body {
 .footer {
   background-color: #757575;
 }
+.footerlogo {
+  color: #ffffff;
+}
 .footer-addressletter {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-
+  font-style: normal;
   color: #ffffff;
 }
 .footer-tel {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-
+  font-style: normal;
   color: rgba(255, 255, 255, 0.6);
 }
 
@@ -160,9 +163,20 @@ body {
   color: var(--activebutton-textcolor);
   background-color: #2196f3;
 }
+.filter-button {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
 
-.gallery {
+  color: var(--maintext-color);
 }
+
+.filter {
+}
+
 .gallery-header {
   font-weight: bold;
   font-size: 18px;
